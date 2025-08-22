@@ -1,0 +1,65 @@
+.add-class-container {
+  padding: 20px;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f7f9fb;
+  min-height: 100vh;
+  animation: fadeIn 0.5s ease-in-out;
+
+}
+
+.breadcrumb {
+  font-size: 14px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.add-class-form {
+  background: #fff;
+  max-width: 400px;
+  margin: auto;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+}
+
+.add-class-form h2 {
+  margin-bottom: 25px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.add-class-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.add-class-form label {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+}
+
+.add-class-form input,
+.add-class-form select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.create-btn {
+  background-color: #2a1da3;
+  color: #fff;
+  border: none;
+  padding: 10px 0;
+  font-size: 16px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.create-btn:hover {
+  background-color: hsl(253, 68%, 62%);
+}

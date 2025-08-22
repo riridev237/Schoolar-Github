@@ -1,0 +1,51 @@
+.absence-container {
+  padding: 20px;
+  font-family: 'Segoe UI', sans-serif;
+  max-width: 600px;
+  margin: auto;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.absence-header {
+  background-color: #2e6da4;
+  color: white;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 6px 6px 0 0;
+}
+
+.absence-form {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 20px;
+  gap: 15px;
+}
+
+.absence-form label {
+  font-weight: 500;
+}
+
+.absence-form input,
+.absence-form select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.btn-marquer {
+  background-color: #2e6da4;
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-marquer:hover {
+  background-color: #1d4f80;
+}

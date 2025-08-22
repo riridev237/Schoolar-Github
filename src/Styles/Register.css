@@ -1,0 +1,147 @@
+.register-container {
+  display: flex;
+  min-height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+  animation: fadeIn 0.5s ease-in-out;
+
+}
+
+
+.register-left {
+  flex: 1;
+  background: linear-gradient(to top, #bdc5d3, rgb(226, 226, 245));
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 60px 20px;
+  text-align: center;
+  max-width: 450px;
+}
+.roles {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0 30px;
+  gap: 10px;
+}
+.register-left h1 {
+  font-size: 26px;
+  margin-bottom: -20px;
+  color: #229;
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}
+
+.register-form input {
+  padding: 12px;
+  width: 100%;
+  max-width: 320px;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+}
+.register-form select {
+  padding: 12px;
+  width: 100%;
+  max-width: 350px;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.register-form input::placeholder {
+  font-size: 14px;
+}
+.register-form select::placeholder {
+  font-size: 14px;
+}
+
+.terms {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 13px;
+  color: #ccc;
+  margin: 10px 0;
+}
+
+.terms a {
+  color: #4db8ff;
+  text-decoration: none;
+}
+
+.register-button {
+  background-color: #007bff;
+  color: white;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 25px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.register-button:hover {
+  background-color: #0056b3;
+}
+
+.signup-button{
+  background-color: #0056b3;
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-top: 20px;
+  margin-bottom:20px ;
+
+}
+
+.register-left .footer {
+  margin-top: 20px;
+  font-size: 13px;
+}
+
+
+.register-right {
+  flex: 0.5;
+  background-color: white;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 80px 60px;
+  text-align: center;
+
+}
+
+.register-right h2 {
+  font-size: 28px;
+  margin-bottom: 50px;
+  margin-top: -200px;
+}
+
+.register-right p {
+  font-size: 16px;
+  max-width: 450px;
+  margin: 0 auto 20px;
+}
+
+.register-right strong {
+  color: #007bff;
+}
+
+.register-right .illustration {
+  margin-top: 30px;
+  height: 200px;
+  background: url('../assets/signup1.png') no-repeat center;
+  background-size: contain;
+  max-width: 500vh;
+}

@@ -1,0 +1,59 @@
+.formContainer {
+  padding: 1.5rem;
+  background: white;
+  border-radius: 0.5rem;
+  max-width: 800px;
+  margin: auto;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.sectionTitle {
+  background-color: #2e6da4;
+  color: white;
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+  margin-bottom: 30PX;
+  margin-top: 30PX;
+}
+
+.label {
+  display: block;
+  font-weight: 500;
+  margin-top: 1rem;
+}
+
+.input, .select {
+  width: 50%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 0.25rem;
+}
+
+.row {
+  display: flex;
+  gap: 1rem;
+}
+
+.button {
+  background-color: #2e6da4;
+  color: white;
+  border: none;
+  padding: 0.5rem 1.25rem;
+  border-radius: 4px;
+  margin-top: 1.5rem;
+  cursor: pointer;
+  display: flex;
+}
+
+.linkButton {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  color: #2e6da4;
+  cursor: pointer;
+  margin-left: 1rem;
+  font-size: 0.9rem;
+}

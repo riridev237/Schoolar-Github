@@ -1,0 +1,177 @@
+ .admin-dashboard{
+  display: flex;
+ }
+ 
+ .sidebar {
+  width: 400px;
+  background-color: #ffffff;
+  border-right: 1px solid #ddd;
+  /* padding: 20px; */
+  display: flex;
+  flex-direction: column;
+  animation: fadeIn 0.5s ease-in-out;
+
+} 
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #9c6651;
+  margin-bottom: 30px;
+}
+.span{
+  color: #213852;
+}
+
+@media (max-width: 768px) {
+  .totals-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  padding: 12px 10px;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 6px;
+  color: #333;
+}
+
+.sidebar li.active,
+.sidebar li:hover {
+  background-color: #eef1fa;
+  color:#007bff;
+}
+
+.react-calendar {
+  border: 1px solid #ddd;
+  border-radius: 2rem;
+  padding: 1rem;
+  width: 100%;
+  background-color: white;
+  font-family: sans-serif;
+  text-align: center;
+  cursor: pointer;
+  background-color: #941b2b;
+  color: white;
+}
+
+.react-calendar__tile {
+  padding: 0.5rem;
+  text-align: center;
+  cursor: pointer;
+  color: #25486d;
+}
+
+.react-calendar__tile--active {
+  background: #941b2b;
+  color: white;
+}
+
+.react-calendar__navigation button:enabled:hover,
+.react-calendar__tile:enabled:hover {
+  background-color: #db6666;
+}
+
+.react-calendar__navigation {
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.react-calendar__month-view__days__day--weekend {
+  color: #d10000;
+}
+
+.dashboard-container {
+  padding: 8rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #dae8f5;
+  max-width: 250vh;
+   
+   
+}
+
+.dashboard-title {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  color: #1e3a8a;
+}
+
+.totals-cards {
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: center;
+  gap: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.card {
+  flex: 1;
+  min-width: 200px;
+  max-width: 200px;
+  background-color: #ffffff;
+  color: #fff;
+  border-radius: 12px;
+  padding: 1.5rem;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: #ffffff;
+}
+
+.card p {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card.blue {
+  background-color: #1e40af;
+}
+
+.card.green {
+  background-color: #059669;
+}
+
+.card.orange {
+  background-color: #ea580c;
+}
+
+.chart-section {
+  margin-bottom: 3rem;
+}
+
+.chart-section h3 {
+  text-align: center;
+  color: #1e3a8a;
+  margin-bottom: 1rem;
+}
+
+/* Responsive */
+ @media (max-width: 768px) {
+  .totals-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .chart-section {
+    padding: 0 1rem;
+  }
+}  
